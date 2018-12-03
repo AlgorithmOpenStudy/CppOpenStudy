@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\3단원%28객체%29">
       <UniqueIdentifier>{911cf866-b426-4705-8b17-4322e9e9a94e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3단원%28객체%29\3-2-1문제">
+      <UniqueIdentifier>{cccbcb2a-b588-4f6d-860f-51735cbe19af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -66,5 +69,22 @@
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RacingCar.cpp">
       <Filter>소스 파일\3단원%28객체%29</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RacingCarFuncAdd.cpp">
+      <Filter>소스 파일\3단원%28객체%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q3-1.cpp">
+      <Filter>소스 파일\3단원%28객체%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RacingCarClassBase.cpp">
+      <Filter>소스 파일\3단원%28객체%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q3-2-1-main.cpp">
+      <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Q3-2-1.h">
+      <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
