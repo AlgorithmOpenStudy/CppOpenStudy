@@ -11,5 +11,6 @@ int main(void) {
 
 	cout << "VAL : " << &num1 << endl;
 	cout << "REF : " << &num2 << endl;
+	system("pause");
 	return 0;
 }

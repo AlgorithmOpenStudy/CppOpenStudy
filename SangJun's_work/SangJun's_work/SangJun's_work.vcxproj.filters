@@ -13,28 +13,58 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\2단원%28포인터%29">
+      <UniqueIdentifier>{8f18f1b7-fc33-495d-90cc-67208b2561af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3단원%28객체%29">
+      <UniqueIdentifier>{911cf866-b426-4705-8b17-4322e9e9a94e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\truefalse.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\bool.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\reference.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RefArrElem.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\call_by_reference.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\BS(using pointer).cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\call_by_ref2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\call_by_reference.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Memmalfree.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\NewDelete.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q2-1-1.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q2-1-3.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RefArrElem.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\reference.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\refreturnOne.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\refreturnTwo.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\truefalse.cpp">
+      <Filter>소스 파일\2단원%28포인터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\RacingCar.cpp">
+      <Filter>소스 파일\3단원%28객체%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -238,3 +238,4 @@ _Pvt_Extensions
 # vs project files...
 *.vcxproj
 *.filters
+/SangJun's_work/SangJun's_work/BS(using pointer).cpp
