@@ -9,7 +9,6 @@ C++ Study group with algorithm
 
 # Start Date : 2018.11.28
 <br>
-# End Date :
 <br>
 
 # Part1 C++로의 변환
