@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\3단원%28객체%29\3-2-1문제">
       <UniqueIdentifier>{cccbcb2a-b588-4f6d-860f-51735cbe19af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4단원%28클래스의 완성%29">
+      <UniqueIdentifier>{7ce9c21b-1b09-4e12-816e-bc0d0ea24e29}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -81,10 +84,25 @@
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q3-2-1-main.cpp">
       <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Pointer.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectangle.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectanglefaultfinder.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Q3-2-1.h">
       <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Point.h">
+      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectangle.h">
+      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
