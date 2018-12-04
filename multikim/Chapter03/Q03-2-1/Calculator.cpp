@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 class Calculator {
@@ -23,7 +23,7 @@ void Calculator::Init() {
   divCount = 0;
 }
 void Calculator::ShowOpCount() {
-  cout << "µ¡¼À: " << addCount << " »¬¼À: " << subCount << " °ö¼À: " << mulCount << " ³ª´°¼À: " << divCount << endl;
+  cout << "ë§ì…ˆ: " << addCount << " ëº„ì…ˆ: " << subCount << " ê³±ì…ˆ: " << mulCount << " ë‚˜ëˆ—ì…ˆ: " << divCount << endl;
 }
 double Calculator::Add(double x, double y) {
   addCount++;
