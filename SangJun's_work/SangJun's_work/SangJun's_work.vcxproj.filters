@@ -25,6 +25,21 @@
     <Filter Include="소스 파일\4단원%28클래스의 완성%29">
       <UniqueIdentifier>{7ce9c21b-1b09-4e12-816e-bc0d0ea24e29}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4단원%28클래스의 완성%29\4-2 캡슐화">
+      <UniqueIdentifier>{e6b5a44f-da85-4282-afec-28a9f02c1187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉">
+      <UniqueIdentifier>{d545f8f6-c6de-46ff-b53b-0303be8bb670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자">
+      <UniqueIdentifier>{e26f83e6-2b21-426b-a8bc-1f34235f714e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4단원%28클래스의 완성%29\4-4 클래스와 배열, this 포인터">
+      <UniqueIdentifier>{91e414f7-2e7e-446e-9e7f-0371e7de94fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5단원%28복사생성자%29">
+      <UniqueIdentifier>{d763f8e5-5228-4340-815e-085d83062775}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -85,13 +100,46 @@
       <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Pointer.cpp">
-      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectangle.cpp">
-      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectanglefaultfinder.cpp">
-      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\capsule1.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-2 캡슐화</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q4-2.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-2 캡슐화</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\FruitSeller_Buyer.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\referenceMember.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\PrivateConstructor.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q4-3.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\ObjArr1.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-4 클래스와 배열, this 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\ObkArr(pointer).cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-4 클래스와 배열, this 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\SelfRef.cpp">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-4 클래스와 배열, this 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\ClassInit.cpp">
+      <Filter>소스 파일\5단원%28복사생성자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\ShallowCopyError.cpp">
+      <Filter>소스 파일\5단원%28복사생성자%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -99,10 +147,19 @@
       <Filter>소스 파일\3단원%28객체%29\3-2-1문제</Filter>
     </ClInclude>
     <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Point.h">
-      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉</Filter>
     </ClInclude>
     <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\Rectangle.h">
-      <Filter>소스 파일\4단원%28클래스의 완성%29</Filter>
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-1 정보은닉</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\capsule1.h">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-2 캡슐화</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\FruitSeller_Buyer.h">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-3 생성자,소멸자</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SangJun%27s_work\SangJun%27s_work\ObjArr.h">
+      <Filter>소스 파일\4단원%28클래스의 완성%29\4-4 클래스와 배열, this 포인터</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
