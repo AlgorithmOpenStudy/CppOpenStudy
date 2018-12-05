@@ -32,6 +32,10 @@ public:
 	Fruit() {
 		cout << "내가 생성자야" << endl;
 	}
+	// 소멸자 실행 확인
+	~Fruit() {
+		cout << "내가 소멸자야" << endl;
+	}
 	//이니셜라이져 사용
 	Fruit(int num) : amount(num)
 	{
@@ -58,11 +62,6 @@ public:
 		b.getbanana();
 		m.getmango();
 	}
-	// 소멸자 실행 확인
-	~Fruit() {
-
-		cout << "내가 소멸자야" << endl;
-	}
 };
 
 class codlove {
@@ -78,14 +77,15 @@ int main() {
 	apple a;
 	banana b;
 	mango m;
-	Fruit fruit; //생성자 1실행
+	// 소멸자는 fruit가 할당하는게 있을때 실행되는거라... 동적할당이나 참조를 해야됨!
+	Fruit *fruit = new Fruit; //생성자 1실행
 	Fruit f(10); // 생성자 2실행
-	fruit.putapple(a);
-	fruit.putbanana(b);
-	fruit.putmango(m);
+	fruit->putapple(a);
+	fruit->putbanana(b);
+	fruit->putmango(m);
 
-	fruit.sunseoput();
-
+	fruit->sunseoput();
+	delete fruit;
 	//delete Fruit();
 	system("pause");
 
