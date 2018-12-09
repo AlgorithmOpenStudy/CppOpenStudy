@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\5단원%28복사생성자%29">
       <UniqueIdentifier>{d763f8e5-5228-4340-815e-085d83062775}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6단원">
+      <UniqueIdentifier>{564f68b9-b120-4b13-8d1a-0ea8e31a88f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7단원%28상속%29">
+      <UniqueIdentifier>{689c1f15-284f-41b3-bbcc-8f2d444d9769}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -140,6 +146,18 @@
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\ShallowCopyError.cpp">
       <Filter>소스 파일\5단원%28복사생성자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\publicpublic.cpp">
+      <Filter>소스 파일\6단원</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q7-1-1.cpp">
+      <Filter>소스 파일\7단원%28상속%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q7-1-2.cpp">
+      <Filter>소스 파일\7단원%28상속%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q7-2-1.cpp">
+      <Filter>소스 파일\7단원%28상속%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

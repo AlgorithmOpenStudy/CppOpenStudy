@@ -8,28 +8,30 @@ private:
 	char *name;
 	int age;
 public:
-	Person(char *myName, int myAge) {
+	Person(const char *myName, int myAge) {
 		int len = strlen(myName) + 1;
-		name = new char[len];
+		this->name = new char[len];
+
 		strcpy(name, myName);
-		age = myAge;
+		this->age = myAge;
 	}
-	void ShowPersonInfo() const{
-		cout << "이름 : " << endl;
-		cout << "나이 : " << endl;
+	void ShowPersonInfo(){
+		cout << "이름 : " << name << endl;
+		cout << "나이 : " << age << endl;
 	}
 	~Person() {
-		delete[]name;
+		
 		cout << "소멸자 호출!" << endl;
 	}
 };
 
 int main() {
-	Person man1("양상준", 26);
-	Person man2 = man1;
-	man1.ShowPersonInfo();
-	man2.ShowPersonInfo();
-
+	
+	Person *man1 = new Person("양상준", 26);
+//	Person man2 = man1;
+	man1->ShowPersonInfo();
+	//man2.ShowPersonInfo();
+	delete man1;
 	system("pause");
 	return 0;
 }
