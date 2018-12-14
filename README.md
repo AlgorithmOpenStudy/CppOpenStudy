@@ -8,6 +8,7 @@ C++ Study group with algorithm
 <br>
 
 # Start Date : 2018.11.28
+# End   Date : 2018.12.22
 <br>
 <br>
 
@@ -19,3 +20,5 @@ C++ Study group with algorithm
 181203 ~ 181203 클래스의 기본 (p148까지) <br>
 181204 ~ 181204 클래스의 완성 (p207까지) <br>
 181205 ~ 181205 복사 생성자   (p241까지) <br>
+
+# Part3 
