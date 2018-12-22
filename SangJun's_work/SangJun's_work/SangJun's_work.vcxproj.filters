@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\7단원%28상속%29">
       <UniqueIdentifier>{689c1f15-284f-41b3-bbcc-8f2d444d9769}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8단원%28객체지향의 전개%29">
+      <UniqueIdentifier>{3d543fad-f18d-4022-bab2-23d8f443e796}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -158,6 +161,9 @@
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q7-2-1.cpp">
       <Filter>소스 파일\7단원%28상속%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q8-1.cpp">
+      <Filter>소스 파일\8단원%28객체지향의 전개%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
