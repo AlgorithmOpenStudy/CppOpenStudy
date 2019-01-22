@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\8단원%28객체지향의 전개%29">
       <UniqueIdentifier>{3d543fad-f18d-4022-bab2-23d8f443e796}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9단원%28가장의 원리와 다중상속%29">
+      <UniqueIdentifier>{85be73d6-44ab-49b1-be6c-c2974635d93f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Banking_Sys.cpp">
@@ -164,6 +167,9 @@
     </ClCompile>
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Q8-1.cpp">
       <Filter>소스 파일\8단원%28객체지향의 전개%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\MultiInheri3.cpp">
+      <Filter>소스 파일\9단원%28가장의 원리와 다중상속%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

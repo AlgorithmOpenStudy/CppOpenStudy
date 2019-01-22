@@ -147,6 +147,7 @@
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\Memmalfree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\MultiInheri3.cpp" />
     <ClCompile Include="..\..\SangJun%27s_work\SangJun%27s_work\NewDelete.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
