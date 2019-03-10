@@ -1,4 +1,4 @@
-ï»¿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -17,12 +17,12 @@ namespace CAR_CONST
 
 class Car
 {
-private: // í´ë˜ìŠ¤ ë‚´ì—ì„œë§Œ ì ‘ê·¼ í—ˆìš©.
+private: // Å¬·¡½º ³»¿¡¼­¸¸ Á¢±Ù Çã¿ë.
   char gamerID[CAR_CONST::ID_LEN];
   int fuelGauge;
   int curSpeed;
-public: // ì–´ë””ì—ì„œë“  ì ‘ê·¼ í—ˆìš©.
-  void InitMembers(const char * ID, int fuel); // í´ë˜ìŠ¤ ë‚´ë¶€ ë³€ìˆ˜ ì´ˆê¸°í™” ìš© í•¨ìˆ˜. (const ì¶”ê°€)
+public: // ¾îµğ¿¡¼­µç Á¢±Ù Çã¿ë.
+  void InitMembers(const char * ID, int fuel); // Å¬·¡½º ³»ºÎ º¯¼ö ÃÊ±âÈ­ ¿ë ÇÔ¼ö. (const Ãß°¡)
   void ShowCarState();
   void Accel();
   void Break();
@@ -36,9 +36,9 @@ void Car::InitMembers(const char * ID, int fuel)
 };
 void Car::ShowCarState()
 {
-  cout << "ì†Œìœ ìID: " << gamerID << endl;
-  cout << "ì—°ë£ŒëŸ‰: " << fuelGauge << "%" << endl;
-  cout << "í˜„ì¬ì†ë„: " << curSpeed << "km/s" << endl << endl;
+  cout << "¼ÒÀ¯ÀÚID: " << gamerID << endl;
+  cout << "¿¬·á·®: " << fuelGauge << "%" << endl;
+  cout << "ÇöÀç¼Óµµ: " << curSpeed << "km/s" << endl << endl;
 }
 void Car::Accel()
 {

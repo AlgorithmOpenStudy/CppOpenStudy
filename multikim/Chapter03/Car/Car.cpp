@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include <cstring>
 #include "Car.h"
 using namespace std;
@@ -12,9 +12,9 @@ void Car::InitMembers(const char * ID, int fuel)
 
 void Car::ShowCarState()
 {
-  cout << "ì†Œìœ ìžID: " << gamerID << endl;
-  cout << "ì—°ë£ŒëŸ‰: " << fuelGauge << "%" << endl;
-  cout << "í˜„ìž¬ì†ë„: " << curSpeed << "km/s" << endl << endl;
+  cout << "¼ÒÀ¯ÀÚID: " << gamerID << endl;
+  cout << "¿¬·á·®: " << fuelGauge << "%" << endl;
+  cout << "ÇöÀç¼Óµµ: " << curSpeed << "km/s" << endl << endl;
 }
 
 void Car::Accel()

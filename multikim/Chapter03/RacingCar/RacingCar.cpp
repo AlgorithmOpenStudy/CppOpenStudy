@@ -1,4 +1,4 @@
-ï»¿// Page 107: RacingCar.cpp
+// Page 107: RacingCar.cpp
 #include <iostream>
 using namespace std;
 
@@ -9,18 +9,18 @@ using namespace std;
 #define BRK_STEP  10
 
 struct Car {
-  char gamerID[ID_LEN];	// ì†Œìœ ìID
-  int fuelGauge;		// ì—°ë£ŒëŸ‰
-  int curSpeed;		// í˜„ì¬ì†ë„
+  char gamerID[ID_LEN];	// ¼ÒÀ¯ÀÚID
+  int fuelGauge;		// ¿¬·á·®
+  int curSpeed;		// ÇöÀç¼Óµµ
 };
 
-void ShowCarState(const Car &car) { // constë¥¼ ì‚¬ìš©í•¨ìœ¼ë¡œì¨ Car ë³€ìˆ˜ì˜ ê°’ì„ ì½ê¸°ë§Œ í•œë‹¤ê³  í•œì •í•¨.
-  cout << "ì†Œìœ ìID: " << car.gamerID << endl;
-  cout << "ì—°ë£ŒëŸ‰: " << car.fuelGauge << "%" << endl;
-  cout << "í˜„ì¬ì†ë„: " << car.curSpeed << "km/s" << endl << endl;
+void ShowCarState(const Car &car) { // const¸¦ »ç¿ëÇÔÀ¸·Î½á Car º¯¼öÀÇ °ªÀ» ÀĞ±â¸¸ ÇÑ´Ù°í ÇÑÁ¤ÇÔ.
+  cout << "¼ÒÀ¯ÀÚID: " << car.gamerID << endl;
+  cout << "¿¬·á·®: " << car.fuelGauge << "%" << endl;
+  cout << "ÇöÀç¼Óµµ: " << car.curSpeed << "km/s" << endl << endl;
 }
 
-void Accel(Car &car) { // Car ë³€ìˆ˜ì˜ ê°’ì„ ìˆ˜ì •í•  ìˆ˜ ìˆìŒ.
+void Accel(Car &car) { // Car º¯¼öÀÇ °ªÀ» ¼öÁ¤ÇÒ ¼ö ÀÖÀ½.
   if (car.fuelGauge <= 0)
     return;
   else

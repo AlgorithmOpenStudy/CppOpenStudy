@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 class FruitSeller
@@ -18,7 +18,7 @@ public:
   int SaleApples(int money)
   {
     if (money < 0) {
-      cout << "ê¸ˆì•¡ì´ ìŒìˆ˜ì´ë¯€ë¡œ ê±°ëž˜ ì¤‘ì§€." << endl << endl;
+      cout << "±Ý¾×ÀÌ À½¼öÀÌ¹Ç·Î °Å·¡ ÁßÁö." << endl << endl;
       return 0;
     }
 
@@ -29,8 +29,8 @@ public:
   }
   void ShowSalesResult() const
   {
-    cout << "ë‚¨ì€ ì‚¬ê³¼: " << numOfApples << endl;
-    cout << "íŒë§¤ ìˆ˜ìµ: " << myMoney << endl << endl;
+    cout << "³²Àº »ç°ú: " << numOfApples << endl;
+    cout << "ÆÇ¸Å ¼öÀÍ: " << myMoney << endl << endl;
   }
 };
 
@@ -49,13 +49,13 @@ public:
   {
     if (numOfApples += seller.SaleApples(money)) {
       myMoney -= money;
-      cout << "ê±°ëž˜ ì„±ê³µ." << endl << endl;
+      cout << "°Å·¡ ¼º°ø." << endl << endl;
     }
   }
   void ShowBuyResult() const
   {
-    cout << "í˜„ìž¬ ìž”ì•¡: " << myMoney << endl;
-    cout << "ì‚¬ê³¼ ê°œìˆ˜: " << numOfApples << endl << endl;
+    cout << "ÇöÀç ÀÜ¾×: " << myMoney << endl;
+    cout << "»ç°ú °³¼ö: " << numOfApples << endl << endl;
   }
 };
 
@@ -66,16 +66,16 @@ int main(void)
   FruitBuyer buyer;
   buyer.InitMembers(5000);
   
-  buyer.BuyApples(seller, -2000); // ìž˜ëª»ëœ ê¸ˆì•¡.
-  cout << "ê³¼ì¼ íŒë§¤ìžì˜ í˜„í™©" << endl;
+  buyer.BuyApples(seller, -2000); // Àß¸øµÈ ±Ý¾×.
+  cout << "°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÈ²" << endl;
   seller.ShowSalesResult();
-  cout << "ê³¼ì¼ êµ¬ë§¤ìžì˜ í˜„í™©" << endl;
+  cout << "°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÈ²" << endl;
   buyer.ShowBuyResult();
 
   buyer.BuyApples(seller, 2000);
-  cout << "ê³¼ì¼ íŒë§¤ìžì˜ í˜„í™©" << endl;
+  cout << "°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÈ²" << endl;
   seller.ShowSalesResult();
-  cout << "ê³¼ì¼ êµ¬ë§¤ìžì˜ í˜„í™©" << endl;
+  cout << "°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÈ²" << endl;
   buyer.ShowBuyResult();
 
   return 0;

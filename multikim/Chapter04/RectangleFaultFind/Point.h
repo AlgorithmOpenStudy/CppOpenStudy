@@ -1,15 +1,15 @@
-ï»¿#ifndef __POINT_H_
+#ifndef __POINT_H_
 #define __POINT_H_
 
 class Point
 {
-private: // ì™¸ë¶€ì—ì„œì˜ ê°’ì˜ ë³€ê²½ì„ ë§‰ìŒ. (ì€ë‹‰)
+private: // ¿ÜºÎ¿¡¼­ÀÇ °ªÀÇ º¯°æÀ» ¸·À½. (Àº´Ğ)
   int x;
   int y;
 
 public:
   bool InitMembers(int xpos, int ypos);
-  int GetX() const; // privateí•œ ë©¤ë²„ë³€ìˆ˜ì˜ ê°’ì„ ì°¸ì¡°í•˜ê¸° ìœ„í•œ í•¨ìˆ˜
+  int GetX() const; // privateÇÑ ¸â¹öº¯¼öÀÇ °ªÀ» ÂüÁ¶ÇÏ±â À§ÇÑ ÇÔ¼ö
   int GetY() const;
   bool SetX(int xpos);
   bool SetY(int ypos);

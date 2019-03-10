@@ -1,4 +1,4 @@
-﻿#ifndef __RECTANGLE_H_
+#ifndef __RECTANGLE_H_
 #define __RECTANGLE_H_
 
 #include "Point.h"

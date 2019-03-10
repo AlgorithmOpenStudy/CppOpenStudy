@@ -1,4 +1,4 @@
-ï»¿#include<iostream>
+#include<iostream>
 #include "Point.h"
 #include "Rectangle.h"
 using namespace std;
@@ -7,20 +7,20 @@ int main(void)
 {
   Point pos1;
   if (!pos1.InitMembers(-2, 4))
-    cout << "ì´ˆê¸°í™” ì‹¤íŒ¨" << endl;
+    cout << "ÃÊ±âÈ­ ½ÇÆÐ" << endl;
   if (!pos1.InitMembers(2, 4))
-    cout << "ì´ˆê¸°í™” ì‹¤íŒ¨" << endl;
+    cout << "ÃÊ±âÈ­ ½ÇÆÐ" << endl;
 
   Point pos2;
   if (!pos2.InitMembers(5, 9))
-    cout << "ì´ˆê¸°í™” ì‹¤íŒ¨" << endl;
+    cout << "ÃÊ±âÈ­ ½ÇÆÐ" << endl;
 
   Rectangle rec;
   if (rec.InitMembers(pos2, pos1))
-    cout << "ì§ì‚¬ê°í˜• ì´ˆê¸°í™” ì‹¤íŒ¨" << endl;
+    cout << "Á÷»ç°¢Çü ÃÊ±âÈ­ ½ÇÆÐ" << endl;
 
   if (rec.InitMembers(pos1, pos2))
-    cout << "ì§ì‚¬ê°í˜• ì´ˆê¸°í™” ì‹¤íŒ¨" << endl;
+    cout << "Á÷»ç°¢Çü ÃÊ±âÈ­ ½ÇÆÐ" << endl;
 
   rec.ShowRecInfo();
   return 0;

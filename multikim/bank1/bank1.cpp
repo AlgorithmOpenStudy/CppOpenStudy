@@ -1,4 +1,4 @@
-Ôªø// bank1.cpp : 51ÌéòÏù¥ÏßÄ ÏòàÏ†ú
+// bank1.cpp : 51∆‰¿Ã¡ˆ øπ¡¶
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -29,21 +29,21 @@ int main() {
     cin >> choice;
     switch (choice) {
     case 1: if (MakeAccount() == -1) {
-      cout << "Í≥ÑÏ¢å ÏÉùÏÑ± Ïò§Î•ò!\n" << endl;
+      cout << "∞Ë¡¬ ª˝º∫ ø¿∑˘!\n" << endl;
     }
             break;
     case 2: if (Deposit() == -1) {
-      cout << "ÏûÖÍ∏à Ïò§Î•ò!\n" << endl;
+      cout << "¿‘±› ø¿∑˘!\n" << endl;
     }
             break;
     case 3: if (Withdraw() == -1) {
-      cout << "Ï∂úÍ∏à Ïò§Î•ò!\n" << endl;
+      cout << "√‚±› ø¿∑˘!\n" << endl;
     }
             break;
     case 4: ShowAllAccountHolder();
       break;
     case 5: return 0;
-    default: cout << "\nÏÑ†ÌÉù Ïò§Î•òÏûÖÎãàÎã§!\n" << endl;
+    default: cout << "\nº±≈√ ø¿∑˘¿‘¥œ¥Ÿ!\n" << endl;
     }
   }
 }
@@ -58,95 +58,95 @@ void InitList() {
 
 void PrintMenu() {
   cout << "---------Menu---------\n";
-  cout << "1. Í≥ÑÏ¢åÍ∞úÏÑ§\n";
-  cout << "2. ÏûÖÍ∏à\n";
-  cout << "3. Ï∂úÍ∏à\n";
-  cout << "4. Í≥ÑÏ¢åÏ†ïÎ≥¥ Ï†ÑÏ≤¥ Ï∂úÎ†•\n";
-  cout << "5. ÌîÑÎ°úÍ∑∏Îû® Ï¢ÖÎ£å" << endl;
-  cout << "ÏÑ†ÌÉù: ";
+  cout << "1. ∞Ë¡¬∞≥º≥\n";
+  cout << "2. ¿‘±›\n";
+  cout << "3. √‚±›\n";
+  cout << "4. ∞Ë¡¬¡§∫∏ ¿¸√º √‚∑¬\n";
+  cout << "5. «¡∑Œ±◊∑• ¡æ∑·" << endl;
+  cout << "º±≈√: ";
 }
 
 int MakeAccount() {
   int i;
   for (i = 0; strcmp(csList[i].accountNumber, "") != 0 && i < LISTSIZE; i++);
   if (i >= LISTSIZE) {
-    cout << "\nÎ¶¨Ïä§Ìä∏ Í≥µÍ∞Ñ Î∂ÄÏ°±!" << endl;
+    cout << "\n∏ÆΩ∫∆Æ ∞¯∞£ ∫Œ¡∑!" << endl;
     return -1;
   }
-  cout << "\n[Í≥ÑÏ¢åÍ∞úÏÑ§]\n";
-  cout << "ÏÑ±Î™Ö: ";
+  cout << "\n[∞Ë¡¬∞≥º≥]\n";
+  cout << "º∫∏Ì: ";
   cin >> csList[i].accountHolderName;
-  cout << "Í≥ÑÏ¢åÎ≤àÌò∏: ";
+  cout << "∞Ë¡¬π¯»£: ";
   cin >> csList[i].accountNumber;
-  cout << "ÏòàÍ∏àÌïòÏã§ Í∏àÏï°: ";
+  cout << "øπ±›«œΩ« ±›æ◊: ";
   cin >> csList[i].balance;
-  cout << "Í≥ÑÏ¢åÍ∞Ä Í∞úÏÑ§ÎêòÏóàÏäµÎãàÎã§.\n" << endl;
+  cout << "∞Ë¡¬∞° ∞≥º≥µ«æ˙Ω¿¥œ¥Ÿ.\n" << endl;
   return 0;
 }
 
 int Deposit() {
   int i, price;
   char accNum[20];
-  cout << "\n[ÏûÖÍ∏à]\n";
-  cout << "Í≥ÑÏ¢åÎ≤àÌò∏: ";
+  cout << "\n[¿‘±›]\n";
+  cout << "∞Ë¡¬π¯»£: ";
   cin >> accNum;
   for (i = 0; strcmp(csList[i].accountNumber, accNum) != 0 && i < LISTSIZE; i++);
   if (i == LISTSIZE) {
-    cout << "Ï°¥Ïû¨ÌïòÏßÄ ÏïäÎäî Í≥ÑÏ¢åÏûÖÎãàÎã§!" << endl;
+    cout << "¡∏¿Á«œ¡ˆ æ ¥¬ ∞Ë¡¬¿‘¥œ¥Ÿ!" << endl;
     return -1;
   }
-  cout << "ÏòàÍ∏àÏ£º: " << csList[i].accountHolderName << endl;
-  cout << "Îß°Í∏∞Ïã§ Í∏àÏï°: ";
+  cout << "øπ±›¡÷: " << csList[i].accountHolderName << endl;
+  cout << "∏√±‚Ω« ±›æ◊: ";
   cin >> price;
   csList[i].balance += price;
-  cout << "-------Ï≤òÎ¶¨Í≤∞Í≥º-------\n";
-  cout << "Í≥ÑÏ¢åÎ≤àÌò∏: " << csList[i].accountNumber << endl;
-  cout << "ÏòàÍ∏àÏ£º: " << csList[i].accountHolderName << endl;
-  cout << "ÏûîÏï°: " << csList[i].balance << "\n" << endl;
+  cout << "-------√≥∏Æ∞·∞˙-------\n";
+  cout << "∞Ë¡¬π¯»£: " << csList[i].accountNumber << endl;
+  cout << "øπ±›¡÷: " << csList[i].accountHolderName << endl;
+  cout << "¿‹æ◊: " << csList[i].balance << "\n" << endl;
   return 0;
 }
 
 int Withdraw() {
   int i, price;
   char accNum[20];
-  cout << "\n[Ï∂úÍ∏à]\n";
-  cout << "Í≥ÑÏ¢åÎ≤àÌò∏: ";
+  cout << "\n[√‚±›]\n";
+  cout << "∞Ë¡¬π¯»£: ";
   cin >> accNum;
   for (i = 0; strcmp(csList[i].accountNumber, accNum) != 0 && i < LISTSIZE; i++);
   if (i == LISTSIZE) {
-    cout << "Ï°¥Ïû¨ÌïòÏßÄ ÏïäÎäî Í≥ÑÏ¢åÏûÖÎãàÎã§!" << endl;
+    cout << "¡∏¿Á«œ¡ˆ æ ¥¬ ∞Ë¡¬¿‘¥œ¥Ÿ!" << endl;
     return -1;
   }
-  cout << "ÏòàÍ∏àÏ£º: " << csList[i].accountHolderName << endl;
-  cout << "Ï∞æÏúºÏã§ Í∏àÏï°: ";
+  cout << "øπ±›¡÷: " << csList[i].accountHolderName << endl;
+  cout << "√£¿∏Ω« ±›æ◊: ";
   cin >> price;
   if (csList[i].balance - price < 0) {
-    cout << "ÏûîÏï°Ïù¥ Î∂ÄÏ°±Ìï©ÎãàÎã§." << endl;
+    cout << "¿‹æ◊¿Ã ∫Œ¡∑«’¥œ¥Ÿ." << endl;
   }
   else {
     csList[i].balance -= price;
   }
-  cout << "-------Ï≤òÎ¶¨Í≤∞Í≥º-------\n";
-  cout << "Í≥ÑÏ¢åÎ≤àÌò∏: " << csList[i].accountNumber << endl;
-  cout << "ÏòàÍ∏àÏ£º: " << csList[i].accountHolderName << endl;
-  cout << "ÏûîÏï°: " << csList[i].balance << "\n" << endl;
+  cout << "-------√≥∏Æ∞·∞˙-------\n";
+  cout << "∞Ë¡¬π¯»£: " << csList[i].accountNumber << endl;
+  cout << "øπ±›¡÷: " << csList[i].accountHolderName << endl;
+  cout << "¿‹æ◊: " << csList[i].balance << "\n" << endl;
   return 0;
 }
 
 int ShowAllAccountHolder() {
   int cnt = 0;
-  cout << "\n[Í≥ÑÏ¢åÏ†ïÎ≥¥ Ï†ÑÏ≤¥ Ï∂úÎ†•]\n";
+  cout << "\n[∞Ë¡¬¡§∫∏ ¿¸√º √‚∑¬]\n";
   for (int i = 0; strcmp(csList[i].accountNumber, "") != 0 && i < LISTSIZE; i++) {
-    cout << "Í≥ÑÏ¢åÎ≤àÌò∏: " << csList[i].accountNumber << endl;
-    cout << "ÏòàÍ∏àÏ£º: " << csList[i].accountHolderName << endl;
-    cout << "ÏûîÏï°: " << csList[i].balance << "\n" << endl;
+    cout << "∞Ë¡¬π¯»£: " << csList[i].accountNumber << endl;
+    cout << "øπ±›¡÷: " << csList[i].accountHolderName << endl;
+    cout << "¿‹æ◊: " << csList[i].balance << "\n" << endl;
     cnt++;
   }
   if (cnt == 0) {
-    cout << "ÏûÖÎ†•Îêú Îç∞Ïù¥ÌÑ∞Í∞Ä ÏóÜÏäµÎãàÎã§!\n" << endl;
+    cout << "¿‘∑¬µ» µ•¿Ã≈Õ∞° æ¯Ω¿¥œ¥Ÿ!\n" << endl;
   }
   else {
-    cout << cnt << "Í∞úÏùò Îç∞Ïù¥ÌÑ∞Í∞Ä Ï°∞ÌöåÎêòÏóàÏäµÎãàÎã§.\n" << endl;
+    cout << cnt << "∞≥¿« µ•¿Ã≈Õ∞° ¡∂»∏µ«æ˙Ω¿¥œ¥Ÿ.\n" << endl;
   }
   return 0;
 }

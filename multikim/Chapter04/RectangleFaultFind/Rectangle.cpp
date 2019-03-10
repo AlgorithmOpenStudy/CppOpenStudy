@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include "Rectangle.h"
 using namespace std;
 
@@ -6,7 +6,7 @@ bool Rectangle::InitMembers(const Point &ul, const Point &lr)
 {
   if (ul.GetX() > lr.GetX() || ul.GetY() > lr.GetY())
   {
-    cout << "ìž˜ëª»ëœ ìœ„ì¹˜ì •ë³´ ì „ë‹¬" << endl;
+    cout << "Àß¸øµÈ À§Ä¡Á¤º¸ Àü´Þ" << endl;
     return false;
   }
 
@@ -17,8 +17,8 @@ bool Rectangle::InitMembers(const Point &ul, const Point &lr)
 
 void Rectangle::ShowRecInfo() const
 {
-  cout << "ì¢Œ ìƒë‹¨: " << '[' << upLeft.GetX() << ", ";
+  cout << "ÁÂ »ó´Ü: " << '[' << upLeft.GetX() << ", ";
   cout << upLeft.GetY() << ']' << endl;
-  cout << "ìš° í•˜ë‹¨: " << '[' << lowRight.GetX() << ", ";
+  cout << "¿ì ÇÏ´Ü: " << '[' << lowRight.GetX() << ", ";
   cout << lowRight.GetY() << ']' << endl << endl;
 }

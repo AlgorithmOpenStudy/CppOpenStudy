@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 class FruitSeller
@@ -24,8 +24,8 @@ public:
   }
   void ShowSalesResult()
   {
-    cout << "ë‚¨ì€ ì‚¬ê³¼: " << numOfApples << endl;
-    cout << "íŒë§¤ ìˆ˜ìµ: " << myMoney << endl << endl;
+    cout << "³²Àº »ç°ú: " << numOfApples << endl;
+    cout << "ÆÇ¸Å ¼öÀÍ: " << myMoney << endl << endl;
   }
 };
 
@@ -47,8 +47,8 @@ public:
   }
   void ShowBuyResult()
   {
-    cout << "í˜„ìž¬ ìž”ì•¡: " << myMoney << endl;
-    cout << "ì‚¬ê³¼ ê°œìˆ˜: " << numOfApples << endl << endl;
+    cout << "ÇöÀç ÀÜ¾×: " << myMoney << endl;
+    cout << "»ç°ú °³¼ö: " << numOfApples << endl << endl;
   }
 };
 
@@ -60,9 +60,9 @@ int main(void)
   buyer.InitMembers(5000);
   buyer.BuyApples(seller, 2000);
 
-  cout << "ê³¼ì¼ íŒë§¤ìžì˜ í˜„í™©" << endl;
+  cout << "°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÈ²" << endl;
   seller.ShowSalesResult();
-  cout << "ê³¼ì¼ êµ¬ë§¤ìžì˜ í˜„í™©" << endl;
+  cout << "°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÈ²" << endl;
   buyer.ShowBuyResult();
   return 0;
 }
